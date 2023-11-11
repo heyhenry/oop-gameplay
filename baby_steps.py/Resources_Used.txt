@@ -1,0 +1,3 @@
+This file will contain the significant resources used to assist in learning about the fundamentals of OOP in Python.
+
+Source 1: https://www.geeksforgeeks.org/python-oops-concepts/
