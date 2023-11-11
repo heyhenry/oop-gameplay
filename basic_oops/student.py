@@ -41,3 +41,11 @@ s1 = Student('Johnny', 3694199, 11, 'McAdam')
 s1.display()
 print('-')
 s1.details()
+
+# notes:
+# the reason behind having a details method in both the parent and child class is due to setting the stage with the parent class having a defaulted details method 
+# that can be inherited by the child class if an object is instantiated using the child class in lieu of the parent class.
+# This oop concept of inheritance shown here provides the child class with the flexibility to utilise the defaulted details method if it doesnt want to create it own version, 
+# but also has the option to still create it own version of the details class which will then be overriden, granted that the object created used the child class type instead of 
+# the parent class type.
+# This I believe in essence is the beauty of the inheritance concept in OOP.
