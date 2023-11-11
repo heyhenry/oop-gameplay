@@ -38,9 +38,16 @@ class Student(Teenager):
 # creation of an object variable or an instance
 s1 = Student('Johnny', 3694199, 11, 'McAdam')
 
+print('Student One:')
 s1.display()
 print('-')
 s1.details()
+
+print('Student Two:')
+s2 = Teenager('Cuzton', 2727333)
+
+s2.display()
+s2.details()
 
 # notes:
 # the reason behind having a details method in both the parent and child class is due to setting the stage with the parent class having a defaulted details method 
