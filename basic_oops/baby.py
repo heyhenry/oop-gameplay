@@ -1,3 +1,5 @@
+# simple object creation
+
 class Baby:
 
     # class attributes/variables
